@@ -23,11 +23,11 @@ module.exports = {
       },
       {
         test: /\.styl$/i,
-        loader: ["style-loader", "css-loader", "stylus-loader"], // compiles Stylus to CSS
+        use: ["style-loader", "css-loader", "stylus-loader"], // compiles Stylus to CSS
       },
       {
         test: /\.less$/i,
-        loader: ["style-loader", "css-loader", "less-loader"], // 将 Less 文件编译为 CSS 文件
+        use: ["style-loader", "css-loader", "less-loader"], // 将 Less 文件编译为 CSS 文件
       },
       {
         test: /\.scss$/i,
