@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
   entry: "./src/index.js",
   output: {
-    filename: "index.[contentHash].js",
+    filename: "index.[contenthash].js",
   },
 
   plugins: [
